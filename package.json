@@ -1,0 +1,10 @@
+{
+  "name": "mynodeapp",
+  "version": "1.0.0",
+  "description": "simple node app for jenkins",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo no tests yet"
+  }
+}
