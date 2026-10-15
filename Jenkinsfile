@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git 'https://github.com/fernandezm32/mynodeapp.git'
+                git branch: 'main', url: 'https://github.com/fernandezm32/mynodeapp.git'
             }
         }
         stage('Build') {
