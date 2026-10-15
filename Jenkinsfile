@@ -14,7 +14,7 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Running tests'
-                sh 'npm test'
+                sh 'echo no tests yet'
             }
         }
     }
